@@ -116,7 +116,7 @@ RETURN p, collect(f.name)
 
 While it's possible to get started using the Neo4j.rb without learning Cypher, it is a very powerful way to query a Neo4j database and is worth learning.
 Also, since the Neo4j.rb project works by making Cypher queries to Neo4j it is good to understand Cypher as your queries get more complex.
-There is a link:/developer/cypher[Cypher tutorial] if you would like to learn more.
+There is a xref:cypher:index.adoc[Cypher tutorial] if you would like to learn more.
 
 [#rb-project]
 == Neo4j in Ruby
@@ -131,7 +131,7 @@ Specifically in this guide, we will be using the `ActiveNode` and `ActiveRel` mo
 [#project-setup]
 == Setup
 
-The following example is in Ruby on Rails, but there is a link:#_an_example_sinatra_application[Sinatra example^] below.
+The following example is in Ruby on Rails, but there is a xref:sinatra-ex[Sinatra example^] below.
 
 Here, we describe how to create a fresh Rails application with Neo4j as the database.
 If you have an existing Rails application, you can refer to the link:http://neo4jrb.readthedocs.org/en/5.2.x/Setup.html#adding-the-gem-to-an-existing-project[Neo4j.rb documentation^].
@@ -660,6 +660,7 @@ If you still have a lot of questions, there are a number of resources to help yo
 
 For the fastest help or answers to questions, take a look at or reach out to us on our https://community.neo4j.com[Neo4j Online Community^]!
 
+[#sinatra-ex]
 === An example Sinatra application
 
 .app.rb

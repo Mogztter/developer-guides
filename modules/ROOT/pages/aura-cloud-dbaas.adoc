@@ -26,9 +26,9 @@ https://aura.support.neo4j.com/hc/en-us/articles/360037562253-Working-with-Neo4j
 
 These tutorials explain how to connect to your Aura database from other Neo4j tools.
 
-link:/developer/aura-connect-neo4j-desktop/[Connect from Neo4j Desktop] +
-link:/developer/aura-connect-cypher-shell/[Connect from Cypher Shell] +
-link:/developer/aura-connect-driver/[Connect from your application]
+xref:aura-connect-neo4j-desktop.adoc[Connect from Neo4j Desktop] +
+xref:aura-connect-cypher-shell.adoc[Connect from Cypher Shell] +
+xref:aura-connect-driver.adoc[Connect from your application]
 
 [#importing-data]
 == Importing data
@@ -37,7 +37,7 @@ Aura considers the protection of users' data to be of paramount importance.
 There are therefore some constraints to keep in mind when using your favourite import tools to load data into an Aura database.
 The guide below covers these in detail.
 
-link:/developer/aura-data-import/[Importing data into Neo4j Aura]
+xref:aura-data-import.adoc[Importing data into Neo4j Aura]
 
 // These tutorials show how to import data into an Aura database.
 
@@ -50,7 +50,7 @@ link:/developer/aura-data-import/[Importing data into Neo4j Aura]
 
 These tutorials explain how to build full stack applications with Aura.
 
-link:/developer/aura-grandstack/[Deploying a GRANDstack application]
+xref:aura-grandstack.adoc[Deploying a GRANDstack application]
 
 [#visualize-aura]
 == Visualizing your data in Aura
@@ -58,7 +58,7 @@ link:/developer/aura-grandstack/[Deploying a GRANDstack application]
 You can use Neo4j's Bloom visualization tool to explore graph data stored in Neo4j Aura.
 Connect to an Aura database with Neo4j Bloom and run near-natural language searches to query your data and return the results in a visual way.
 
-link:/developer/aura-bloom/[Visualizing Neo4j Aura data with Bloom]
+xref:aura-bloom.adoc[Visualizing Neo4j Aura data with Bloom]
 
 [#managing-aura]
 == Manage your Aura database
@@ -67,7 +67,7 @@ You've created your Aura database, imported your data, and are now running your 
 Now you want to know what's happening inside the database.
 The tutorial below explains the available options for monitoring your database.
 
-link:/developer/aura-monitoring/[Monitoring your Aura database]
+xref:aura-monitoring.adoc[Monitoring your Aura database]
 
 [#dbaas-resources]
 == Questions?

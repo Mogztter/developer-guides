@@ -30,8 +30,8 @@ See https://medium.com/neo4j/football-transfers-graph-e8ba7347169e[Football Tran
 
 == Connect to Neo4j Aura with Neo4j Desktop
 
-The first thing we need to do, in link:/developer/neo4j-desktop/[Neo4j Desktop^], is create a remote connection to our Aura database.
-See the link:/developer/aura-connect-neo4j-desktop/[Connect to Neo4j Aura with Neo4j Desktop^] guide for step by step instructions explaining how to do this.
+The first thing we need to do, in xref:neo4j-desktop.adoc[Neo4j Desktop], is create a remote connection to our Aura database.
+See the xref:aura-connect-neo4j-desktop.adoc[Connect to Neo4j Aura with Neo4j Desktop] guide for step by step instructions explaining how to do this.
 
 [#neo4j-cloud-tool]
 == Neo4j Cloud Tool

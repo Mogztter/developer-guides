@@ -18,7 +18,7 @@ This article assumes that you already have a basic understanding of HTML and CSS
 It will also discuss some concepts of Single Page Applications.
 
 . Basic knowledge of HTML and JavaScript and an understanding of Single Page Applications (SPAs)
-. Knowledge of the link:/developer/javascript[offical JavaScript Drivers]
+. Knowledge of the xref:ROOT:javascript.adoc[offical JavaScript Drivers]
 . If you haven't already, http://neo4j.org/download[download and install Neo4j Desktop^]
 
 [#graphapp-dev-intro]
@@ -29,7 +29,7 @@ These range from utility tools like monitoring tool https://halin.graphapp.io/[H
 
 Graph apps can be built with vanilla HTML and JavaScript, but most commonly we see these built with modern front end frameworks like https://reactjs.org/[React^] or https://vuejs.org/[Vue.js^].
 Whichever framework you choose to build your application, you will interact with the Graph the same way; by running a Cypher Query through the https://github.com/neo4j/neo4j-javascript-driver[Official JavaScript drivers^].
-There is plenty of content over on the link:/developer/javascript/[JavaScript developer guides] so we will not cover this in too much detail, only the nuances around how the driver works with the Neo4j Desktop API.
+There is plenty of content over on the xref:ROOT:javascript.adoc[JavaScript developer guides] so we will not cover this in too much detail, only the nuances around how the driver works with the Neo4j Desktop API.
 
 If you are looking for inspiration, head over to the https://install.graphapp.io/[Graph App Gallery^] to see what other developers have built.
 Otherwise, let's get started.
@@ -268,7 +268,7 @@ To find any active graphs, you could run a reduce and filter on the current cont
 
 ====
 [NOTE]
-It is recommended that you use the latest version of the Driver, which is currently **4.0.2**.  You can find full installation instructions on the link:/developer/javascript/[JavaScript language guide].
+It is recommended that you use the latest version of the Driver, which is currently **4.0.2**.  You can find full installation instructions on the xref:ROOT:javascript.adoc[JavaScript language guide].
 ====
 
 [source,javascript]
@@ -470,7 +470,7 @@ neo4jDesktopApi.onArgumentsChange((queryString, object) => {
 === Deep links to Neo4j Browser
 
 Your graph app can also link to Neo4j Browser using the  `neo4j-desktop://` scheme and the Graph App name `neo4j-browser`.
-Additionally, you can specify a command and argument to automatically run as it loads.  For example, if you wanted to run the `:play movies` command to open the Movies link:/developer/guide-create-neo4j-browser-guide/[Browser Guide], you could use the following link:
+Additionally, you can specify a command and argument to automatically run as it loads.  For example, if you wanted to run the `:play movies` command to open the Movies xref:ROOT:guide-create-neo4j-browser-guide.adoc[Browser Guide], you could use the following link:
 
 [source,bash]
 ----
@@ -498,7 +498,7 @@ neo4j-desktop://graphapps/neo4j-bloom?search=URL%20Encoded%20String
 You can specify any plugins that your Graph App depends on within `manifest.json` file.
 Any plugin with a valid coordinate from https://search.maven.org/[Maven Central^] will be will be automatically installed to all local databases within the current active project in Neo4j Desktop.
 
-For example, if your Graph App requires link:/developer/neo4j-apoc/[APOC] then your `manifest.json` file may look something like this:
+For example, if your Graph App requires xref:ROOT:neo4j-apoc.adoc[APOC] then your `manifest.json` file may look something like this:
 
 [source,bash]
 ----
@@ -794,11 +794,11 @@ If you are interested in using Activation Keys to unlock features in your app, p
 === Files
 
 Neo4j Desktop allows you to drag and drop files into a project for later use.
-For example, you could create a link:/developer/neo4j-browser/#browser-guides[Browser Guide] to explain your project to your coworkers or create set of link:/developer/cypher-query-language/[Cypher scripts] to seed a new database within the project or to hold commonly run queries.
+For example, you could create a xref:ROOT:neo4j-browser.adoc#browser-guides[Browser Guide] to explain your project to your coworkers or create set of link:/developer/cypher-query-language/[Cypher scripts] to seed a new database within the project or to hold commonly run queries.
 The Neo4j Desktop UI displays a link to these files so they can be quickly opened in Neo4j Browser.
 
 You can also access these from your Graph App.
-For example, a visualisation app may take a set of cypher queries and display them in a link:/developer/tools-graph-visualization/[forced graph layout].
+For example, a visualisation app may take a set of cypher queries and display them in a xref:ROOT:tools-graph-visualization.adoc[forced graph layout].
 Each file can be accessed via HTTP through Neo4j Desktop's API and therefore can be loaded through node's `http` module or a third party package like axios.
 
 .Table File

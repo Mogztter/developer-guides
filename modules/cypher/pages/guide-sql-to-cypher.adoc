@@ -219,7 +219,7 @@ _Indexing_
 
 // table
 
-If you want to match quickly by this node-label and attribute combination, it makes sense to create an index for that pair, if you haven't during the link:/developer/guide-importing-data-and-etl/[import].
+If you want to match quickly by this node-label and attribute combination, it makes sense to create an index for that pair, if you haven't during the xref:ROOT:guide-importing-data-and-etl.adoc[import].
 
 [source, cypher]
 ----
@@ -491,4 +491,4 @@ discuss graph patterns with relationships
 
 [#cypher-resources]
 == Resources
-* link:/developer/graph-db-vs-rdbms/["Data Model Transformation",role=guide]
+* xref:ROOT:graph-db-vs-rdbms.adoc["Data Model Transformation",role=guide]

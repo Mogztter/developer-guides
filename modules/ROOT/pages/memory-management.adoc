@@ -13,7 +13,7 @@
 .Prerequisites
 [abstract]
 Please have link:/download/[Neo4j^] (version 4.1 or later) downloaded and installed.
-Familiarity with the link:/developer/cypher-query-language/[Cypher query language] is required to understand the examples used in this guide.
+Familiarity with the xref:cypher:index.adoc[Cypher query language] is required to understand the examples used in this guide.
 
 [role=expertise {level}]
 {level}

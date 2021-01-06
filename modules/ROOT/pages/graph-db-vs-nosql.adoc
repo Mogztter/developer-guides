@@ -14,7 +14,7 @@
 
 .Prerequisites
 [abstract]
-You need no prior knowledge of other NoSQL databases, although it is helpful to have read the guide on link:/developer/graph-database[graph databases] and understand basic data modeling questions and concepts.
+You need no prior knowledge of other NoSQL databases, although it is helpful to have read the guide on xref:graph-database.adoc[graph databases] and understand basic data modeling questions and concepts.
 
 [role=expertise {level}]
 {level}

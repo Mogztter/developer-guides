@@ -15,7 +15,7 @@
 .Prerequisites
 [abstract]
 Please have link:/download[Neo4j^] (version 4.0 or later) downloaded and installed.
-It helps to have read the section on link:/developer/get-started/graph-database/[graph databases].
+It helps to have read the section on link:graph-database.adoc[graph databases].
 
 [role=expertise {level}]
 {level}

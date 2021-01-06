@@ -17,10 +17,10 @@
 This guide builds upon the basic concepts discussed in earlier guides.
 You should be familiar with the following:
 
-* link:/developer/graph-database/[What is a Graph Database?]
-* link:/developer/neo4j-desktop/[Neo4j Desktop]
-* link:/developer/cypher-query-language/[Cypher]
-* link:/developer/guide-data-modeling/[Property Graph Data Model]
+* xref:graph-database.adoc[What is a Graph Database?]
+* xref:neo4j-desktop.adoc[Neo4j Desktop]
+* xref:cypher:index.adoc[Cypher]
+* xref:guide-data-modeling.adoc[Property Graph Data Model]
 
 You should also have downloaded link:https://neo4j.com/download/[Neo4j Desktop^] and be familiar with navigating the application, as well as creating and starting a database.
 

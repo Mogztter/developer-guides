@@ -50,14 +50,14 @@ For the database described above we'd have the following credentials:
 
 Now that we've got our credentials, we're ready to connect using a driver.
 
-The link:/developer/language-guides/[Drivers and Languages Guides^] page gives an overview of Neo4j drivers and explains the Bolt protocol used to interact with the database.
+The xref:language-guides.adoc[Drivers and Languages Guides^] page gives an overview of Neo4j drivers and explains the Bolt protocol used to interact with the database.
 There are also guides for individual language drivers, including officially supported ones for the following languages:
 
-* link:/developer/dotnet/[.NET]
-* link:/developer/java/[Java]
-* link:/developer/javascript/[JavaScript]
-* link:/developer/go/[Go]
-* link:/developer/python/[Python]
+* xref:dotnet.adoc[.NET]
+* xref:java.adoc[Java]
+* xref:javascript.adoc[JavaScript]
+* xref:go.adoc[Go]
+* xref:python.adoc[Python]
 
 [#aura-help]
 == Help and Questions

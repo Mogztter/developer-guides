@@ -70,7 +70,7 @@ SET article.datePublished = date("2019-09-30")
 ----
 
 But what if we want to create a `Date` type https://neo4j.com/developer/kb/neo4j-string-to-date/[based on an unsupported format^]?
-To do this we'll use a function from the https://neo4j.com/developer/neo4j-apoc/[APOC library^] to parse the string.
+To do this we'll use a function from the xref:ROOT:neo4j-apoc.adoc[APOC library,window=_blank] to parse the string.
 
 The following query parses an unsupported data format into a millisecond based timestamp, creates a `Datetime` from that timestamp, and then creates a `Date` from that `Datetime`:
 
@@ -292,6 +292,6 @@ Below are some resources for learning more about using Temporal types in Neo4j:
 
 * link:https://neo4j.com/docs/cypher-manual/current/syntax/temporal[Temporal Datatypes^]
 * link:https://neo4j.com/developer/kb/neo4j-string-to-date/[Knowledge Base: Converting strings to dates^]
-* link:https://neo4j.com/developer/neo4j-apoc/[APOC Library^]
+* xref:ROOT:neo4j-apoc.adoc[APOC library,window=_blank]
 ** link:https://neo4j.com/docs/labs/apoc/current/temporal/datetime-conversions/[Date parsing^]
 ** link:https://neo4j.com/docs/labs/apoc/3.4/temporal/temporal-conversions/[Temporal Functions^]

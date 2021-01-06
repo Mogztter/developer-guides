@@ -52,7 +52,7 @@ There is also documentation in our link:/docs/operations-manual/current/docker/[
 
 [NOTE]
 --
-By default, the docker image does not have certificates installed. 
+By default, the docker image does not have certificates installed.
 This means that you will need to disable encryption when connecting with a driver.
 --
 
@@ -74,7 +74,7 @@ Note that we do have some configuration presets to restrict certain access and l
 == Resources
 
 * https://hub.docker.com/_/neo4j[Official Neo4j Image on Docker Hub]
-* link:/developer/docker-run-neo4j/[How-To: Run Neo4j with Docker]
+* xref:docker-run-neo4j.adoc[How-To: Run Neo4j with Docker]
 * link:/docs/operations-manual/current/docker/[Manual: Neo4j on Docker reference^]
 * {docker-hub-link}[DockerHub: Neo4j Docker images^]
 * https://github.com/neo4j-contrib/docker-neo4j[Github: Neo4j Docker repository^]

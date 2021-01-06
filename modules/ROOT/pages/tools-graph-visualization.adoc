@@ -12,7 +12,7 @@ image::{img}graph_cluster_distant_wide.jpg[]
 [#bloom]
 [TIP]
 ====
-_Neo4j Bloom is now available for free and is readily available in https://neo4j.com/download/[Neo4j Desktop^]. https://neo4j.com/developer/neo4j-bloom/[This guide^] will provide more information on getting started._
+_Neo4j Bloom is now available for free and is readily available in https://neo4j.com/download/[Neo4j Desktop^]. xref:neo4j-bloom.adoc[This guide] will provide more information on getting started._
 ====
 
 
@@ -262,7 +262,7 @@ image:{img}graphlytic_logo.png[width=200]
 
 image::{img}graphlytic_vis.png[role="popup-link",float="right",width=400]
 
-Graphlytic is a highly customizable web application for graph visualization and analysis. Users can interactively explore the graph, look for patterns with the Cypher language, or use filters to find answers to any graph question. Graph rendering is done with the Cytoscape.js library which allows Graphlytic to render tens of thousands of nodes and hundreds of thousands of relationships. 
+Graphlytic is a highly customizable web application for graph visualization and analysis. Users can interactively explore the graph, look for patterns with the Cypher language, or use filters to find answers to any graph question. Graph rendering is done with the Cytoscape.js library which allows Graphlytic to render tens of thousands of nodes and hundreds of thousands of relationships.
 
 The application is provided in three ways: Desktop, Cloud, and Server. Graphlytic Desktop is a free Neo4j Desktop application installed in just a few clicks. Cloud instances are ideal for small teams that need them get up and running in very little time. Graphlytic Server is used by corporations and agencies with highly sensitive data typically in closed networks.
 

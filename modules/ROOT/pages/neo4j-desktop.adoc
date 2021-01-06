@@ -16,7 +16,7 @@
 
 .Prerequisites
 [abstract]
-It helps if you have read the section on link:/developer/get-started/graph-database/[graph databases] or tried Neo4j in our https://neo4j.com/sandbox/?ref=developer-neo4j-desktop[Sandbox^].
+It helps if you have read the section on xref:graph-database.adoc[graph databases] or tried Neo4j in our https://neo4j.com/sandbox/?ref=developer-neo4j-desktop[Sandbox^].
 
 [role=expertise {level}]
 {level}
@@ -42,7 +42,7 @@ Neo4j Desktop comes with a free Developer License of Neo4j Enterprise Edition. T
 Each database server managed through desktop can be configured, upgraded and maintained through the UI, no command line needed.
 You can install popular Neo4j extensions like link:/labs/apoc[APOC^] or the link:/developer/graph-data-science[Graph Data Science^] library with a single click.
 
-Similar to IDE plugins, link:/developer/graph-apps[Graph Apps^] are helper web applications that make interacting with Neo4j easier.
+Similar to IDE plugins, xref:graph-apps:index.adoc[Graph Apps,window=_blank] are helper web applications that make interacting with Neo4j easier.
 They cover visualization and querying with Neo4j Browser and Bloom, import tools for relational databases, monitoring tools to query log analyzers.
 
 Both Neo4j Desktop as well as Graph Apps offer automatic updates.

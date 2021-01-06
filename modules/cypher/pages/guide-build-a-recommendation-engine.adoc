@@ -30,7 +30,7 @@ This structure forms the basis for many recommendation engines.
 [#recommendation-setup]
 == Setting Up
 
-You can follow along by link:/developer/neo4j-desktop/[starting Neo4j Desktop] and opening link:/developer/neo4j-browser/[Neo4j Browser].
+You can follow along by xref:ROOT:neo4j-desktop.adoc[starting Neo4j Desktop] and opening xref:ROOT:neo4j-browser.adoc[Neo4j Browser].
 For a complete walkthrough of those steps, you can read this https://medium.com/neo4j/neo4j-get-off-the-ground-in-30min-or-less-3a226a0d48b1[blog post^].
 
 Once you have a running instance of Neo4j, you populate the movie dataset by typing `:play movie graph` into the Neo4j Browser command line and clicking the play button (image:{img}cypher_run_button.jpg[width=25]).

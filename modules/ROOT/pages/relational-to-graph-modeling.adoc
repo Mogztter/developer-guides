@@ -13,7 +13,7 @@ It will help to compare and contrast the steps of each process and help you iden
 
 .Prerequisites
 [abstract]
-You should be familiar with Neo4j's link:/developer/graph-database#property-graph[property graph data model] and relational databases.
+You should be familiar with Neo4j's xref:graph-database.adoc#property-graph[property graph data model] and relational databases.
 
 [role=expertise {level}]
 {level}

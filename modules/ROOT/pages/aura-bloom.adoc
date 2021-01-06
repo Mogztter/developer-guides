@@ -93,10 +93,10 @@ We will need to provide the username and password for our Aura instance before w
 
 image::{img}aura_bloom_login.jpg[role="popup-link"]
 
-It will then ask us to link:/developer/neo4j-bloom/#bloom-perspective[choose a perspective], which we will allow Bloom to do for us by clicking on the `Create Perspective`, and then the `Generate Perspective` button.
+It will then ask us to xref:neo4j-bloom.adoc#bloom-perspective[choose a perspective], which we will allow Bloom to do for us by clicking on the `Create Perspective`, and then the `Generate Perspective` button.
 This will create a new perspective that we will then choose - select by clicking on the `Use Perspective` button.
 
-To view some data, we can type in `Movie Person` in the link:/developer/neo4j-bloom/#bloom-search[search bar] and click on the first suggestion that appears underneath it.
+To view some data, we can type in `Movie Person` in the xref:neo4j-bloom.adoc#bloom-search[search bar] and click on the first suggestion that appears underneath it.
 
 image::{img}aurabloom_movieperson_1.jpg[role="popup-link"]
 

@@ -21,12 +21,12 @@ We continue to improve the different perspectives from which to view data, as we
 
 Detailed information and walkthroughs are covered in more detail in subsequent pages of this section, but if you have any questions or issues, don't hesitate to reach out through the https://community.neo4j.com[Neo4j Online Community^]!
 
-* link:/developer/neo4j-database/[Neo4j Graph Database] - our core graph database that is built to store and retrieve connected data. There are link:/licensing/[two editions^] - a Community Edition and an Enterprise Edition. Everything in our platform interacts with data stored in the database.
-* link:/developer/neo4j-desktop/[Neo4j Desktop] - application to manage local instances of Neo4j. Free download includes Neo4j Enterprise Edition license.
-* link:/developer/neo4j-browser/[Neo4j Browser] - online browser interface to query and view the data in the database. Basic visualization capabilities using Cypher query language.
-* link:/developer/neo4j-bloom/[Neo4j Bloom^] - visualization tool for business users that does not require any code or programming skills to view and analyze data. link:/docs/bloom-user-guide/current/[Documentation^] is also available in our docs section.
-* link:/developer/aura-cloud-dbaas/[Neo4j Aura] - database-as-a-service offering managed by Neo4j for graph databases in the cloud. Find out more general information on the link:/aura/[product page^].
-* link:/developer/graph-algorithms/[Graph Data Science^] - officially-supported library for executing graph algorithms with Neo4j and optimized for enterprise workloads and pipelines. link:/docs/graph-data-science/current/[Documentation^] for the library is also available.
+* xref:neo4j-database.adoc[Neo4j Graph Database] - our core graph database that is built to store and retrieve connected data. There are link:/licensing/[two editions^] - a Community Edition and an Enterprise Edition. Everything in our platform interacts with data stored in the database.
+* xref:neo4j-desktop.adoc[Neo4j Desktop] - application to manage local instances of Neo4j. Free download includes Neo4j Enterprise Edition license.
+* xref:neo4j-browser.adoc[Neo4j Browser] - online browser interface to query and view the data in the database. Basic visualization capabilities using Cypher query language.
+* xref:neo4j-bloom.adoc[Neo4j Bloom^] - visualization tool for business users that does not require any code or programming skills to view and analyze data. link:/docs/bloom-user-guide/current/[Documentation^] is also available in our docs section.
+* xref:aura-cloud-dbaas.adoc[Neo4j Aura] - database-as-a-service offering managed by Neo4j for graph databases in the cloud. Find out more general information on the link:/aura/[product page^].
+* xref:graph-algorithms.adoc[Graph Data Science^] - officially-supported library for executing graph algorithms with Neo4j and optimized for enterprise workloads and pipelines. link:/docs/graph-data-science/current/[Documentation^] for the library is also available.
 
 == Neo4j Integration Tools
 
@@ -34,10 +34,10 @@ Neo4j also has a variety of extension libraries and developer tools that can be 
 Some of these projects have been adopted by our link:/labs/[Neo4j Labs^] team to help developers integrate with other innovative tools and libraries.
 
 Tutorials and other specific information for some of these is included in this section.
-Other non-Neo4j Labs extensions will be covered in the link:/developer/integration/[Extensions & Integrations] section of these guides.
+Other non-Neo4j Labs extensions will be covered in the xref:integration.adoc[Extensions & Integrations] section of these guides.
 
 Neo4j Labs integrations:
 
-link:/developer/neo4j-apoc/[APOC] - the standard utility library of procedures and functions for Neo4j. +
-link:/developer/graphql/[GraphQL and GRANDstack] - integrate with other popular data technologies or full-stack solutions. +
-link:/developer/neo4j-etl/[ETL Tool] - migrate data from a relational database to Neo4j using an application and simple user interface.
+xref:neo4j-apoc.adoc[APOC] - the standard utility library of procedures and functions for Neo4j. +
+xref:graphql.adoc[GraphQL and GRANDstack] - integrate with other popular data technologies or full-stack solutions. +
+xref:neo4j-etl.adoc[ETL Tool] - migrate data from a relational database to Neo4j using an application and simple user interface.

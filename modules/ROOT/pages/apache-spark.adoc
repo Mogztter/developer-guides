@@ -47,8 +47,8 @@ Spark might be better suited for larger datasets or more intensive compute opera
 The https://github.com/neo4j-contrib/neo4j-spark-connector[Neo4j Spark Connector] uses the binary Bolt protocol to transfer data from and to a Neo4j server.
 
 [NOTE]
-**The information on this page refers to the old (2.4.5 release) of the spark connector**.   For more up to date information, an easier and more modern API, 
-consult the link:/developer/spark[Neo4j Connector for Apache Spark].  
+**The information on this page refers to the old (2.4.5 release) of the spark connector**.   For more up to date information, an easier and more modern API,
+consult the link:/developer/spark[Neo4j Connector for Apache Spark].
 
 It offers Spark-2.0 APIs for *RDD, DataFrame, GraphX and GraphFrames*, so you're free to chose how you want to use and process your Neo4j graph data in Apache Spark.
 
